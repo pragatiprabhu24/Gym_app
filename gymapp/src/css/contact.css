@@ -1,0 +1,74 @@
+.main5 {
+    background-image: url(https://img.freepik.com/premium-photo/contemporary-spotless-fitness-gym-center-interiorgenerative-ai_391052-10889.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }
+
+  @media (max-width:600px) {
+    .main5{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center; 
+    
+    }
+    }
+  
+  
+  .banner{
+    height: 35rem;
+    background: rgba(7, 7, 7, 0.605);
+  
+  }
+
+  .title h4{
+    color: #fff4f4;
+    font-weight: 500;
+  }
+  .title h1{
+    font-size: 3.5rem;
+    color: #fff;
+  }
+  .title h5{
+    color: #cdc6c6;
+    font-size: 18px;
+    font-weight: 500;
+  
+  }
+  .btn{
+    padding: 13px 5%;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    background-color: #F90716;
+    color: #fff;
+    font-weight: 500;
+    border: none;
+  }
+  @media (max-width:600px) {
+    .banner{
+      height: 42rem;
+      background: rgba(0, 0, 0, 0.2);
+    
+    }
+    }
+  
+  .item:hover{
+    background-color: #fe1943;
+  }
+
+
+@media (max-width:600px) {
+  .footer{
+    width: 500;
+    height: 100;
+    text-align: center;
+  
+  }
+  }
+
+
+

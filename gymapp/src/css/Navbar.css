@@ -1,0 +1,111 @@
+.main {
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/672/805/239/photo-figure-pose-athlete-workout-hd-wallpaper-preview.jpg);
+    background-size: cover;
+  }
+  
+  .nav {
+    height: 80px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    position: relative;
+    justify-content: space-between;
+   
+  }
+  
+  .nav>.nav-header {
+    display: inline;
+  
+  }
+  
+  .nav>.nav-header>.nav-title {
+    display: inline-block;
+    color: #fff;
+    padding: 20px 5%;
+  }
+  
+  .nav>.nav-btn {
+    display: none;
+  }
+  
+  .nav>.nav-links {
+    display: inline;
+    float: right;
+    margin-right: 15rem;
+  }
+  
+  .nav>.nav-links>a {
+    display: inline-block;
+    padding: 34px 25px 34px 25px;
+    text-decoration: none;
+    color: #efefef;
+    font-weight: 500;
+  }
+  
+  .nav>.nav-links>a:hover {
+    color: #F90716;
+    text-decoration: underline;
+  
+  }
+  
+  .nav>#nav-check {
+    display: none;
+  }
+  
+  @media (max-width:600px) {
+  
+    .nav>.nav-btn {
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+      padding: 20px 5%;
+    }
+  
+    .nav>.nav-btn>label {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      padding: 13px;
+    }
+  
+    .nav>.nav-btn>label:hover,
+    .nav #nav-check:checked~.nav-btn>label {
+     color: #F90716;
+    }
+  
+    .nav>.nav-btn>label>span {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid #eee;
+    }
+  
+    .nav>.nav-links {
+      position: absolute;
+      display: block;
+      width: 100%;
+      background-color: #333;
+      height: 0px;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 80px;
+      left: 0px;
+      text-align: center;
+    }
+  
+    .nav>.nav-links>a {
+      display: block;
+      width: 100%;
+    }
+  
+    .nav>#nav-check:not(:checked)~.nav-links {
+      height: 0px;
+    }
+  
+    .nav>#nav-check:checked~.nav-links {
+      height: calc(100vh - 50px);
+      overflow-y: auto;
+    }
+  }
+  
+ 

@@ -1,0 +1,97 @@
+.main {
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/672/805/239/photo-figure-pose-athlete-workout-hd-wallpaper-preview.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.banner {
+  height: 40rem;
+  background: rgba(0, 0, 0, 0.2);
+}
+.title {
+  margin-top: 2rem;
+}
+.title h4 {
+  color: #fff4f4;
+  font-weight: 500;
+}
+.title h1 {
+  font-size: 3.5rem;
+  color: #fff;
+}
+.title h5 {
+  color: #cdc6c6;
+  font-size: 18px;
+  font-weight: 500;
+}
+.btn {
+  padding: 13px 5%;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  background-color: #f90716;
+  color: #fff;
+  font-weight: 500;
+  border: none;
+}
+@media (max-width: 600px) {
+  .banner {
+    height: 40rem;
+    background: rgba(0, 0, 0, 0.2);
+  }
+}
+
+.item:hover {
+  background-color: #fe1943;
+}
+
+@media (max-width: 600px) {
+  .box {
+    width: 500;
+    height: 100;
+  }
+}
+
+.banner1 {
+  background-image: url(https://thedrum-media.imgix.net/thedrum-prod/s3/news/tmp/666306/victor-freitas-wvdydxdzkhs-unsplash.jpg?w=1280&ar=default&fit=crop&crop=faces,edges&auto=format);
+  background-size: cover;
+}
+.banner1-text {
+  text-align: center;
+  letter-spacing: 1px;
+  padding-top: 4rem;
+  padding-bottom: 5rem;
+  background: rgba(0, 0, 0, 0.2);
+}
+@media (max-width: 600px) {
+  .banner1 {
+    width: 500;
+    height: 100;
+  }
+}
+.nav-links a {
+  display: inline-block;
+  padding: 1rem;
+  text-decoration: none;
+  color: #efefef;
+  font-weight: 500;
+}
+.icons a {
+  display: inline-block;
+  padding: 0.5rem;
+
+  text-decoration: none;
+  color: #efefef;
+  font-weight: 500;
+}
+
+@media (max-width: 600px) {
+  .footer {
+    width: 500;
+    height: 100;
+    text-align: center;
+  }
+}
